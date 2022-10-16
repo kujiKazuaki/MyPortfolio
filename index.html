@@ -4,13 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <link rel="stylesheet" href="style.css" />
     <title>MyPortforio</title>
   </head>
   <body>
     <div class="allContainer">
       <section class="header__Area">
-        <h2>test</h2>
+        <nav>
+          <ul class="headerLi">
+            <li><a href="">main</a></li>
+            <li><a href="">hobbies</a></li>
+            <li><a href="">quizess</a></li>
+          </ul>
+        </nav>
       </section>
+
+      <section class="main__Area">
+        <a href="">Main</a>
+        <figure>
+          <img src="./images/myImg2.jpg" alt="myImg" class="ImgFormat myImg" />
+        </figure>
+      </section>
+
+      <section class="hobbies__Area">
+        <div>
+          <h2>Game</h2>
+          <div>スプラトゥーン</div>
+        </div>
+        <div>
+          <h2>Book</h2>
+          <div>村上春樹</div>
+        </div>
+        <div>
+          <h2>Music</h2>
+          <div>EDM</div>
+        </div>
+        <div>
+          <h2>Animal</h2>
+          <div>柴犬</div>
+        </div>
+      </section>
+
+      <section class="quizess__Area">
+        <a href="">quizess</a>
+        <div>
+          <p>僕についていくつか質問をするので、答えてください！</p>
+        </div>
+        <div>
+          <p>Q.好きなゲームは何でしょう？</p>
+          <div>
+            <button class="BtnFormat">スプラトゥーン</button>
+            <button class="BtnFormat">APEX</button>
+            <button class="BtnFormat">つむつむ</button>
+          </div>
+          <div id="Q_One_msg"></div>
+        </div>
+        <div>
+          <p>Q.どこ地方に住んでるでしょうか？</p>
+          <div>
+            <button class="BtnFormat">九州地方</button>
+            <button class="BtnFormat">中部地方</button>
+            <button class="BtnFormat">東北地方</button>
+          </div>
+          <div id="Q_Two_msg"></div>
+        </div>
+        <div>
+          <p>Q.悩みは何でしょうか？</p>
+          <div>
+            <button class="BtnFormat">黒歴史</button>
+            <button class="BtnFormat">恐怖症</button>
+            <button class="BtnFormat">性格</button>
+          </div>
+          <div id="Q_Two_msg"></div>
+        </div>
+      </section>
+
+      <section class="footer__Area"></section>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
